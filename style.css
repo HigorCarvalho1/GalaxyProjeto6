@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    height: 90vh;
+    
+    background: url(./images/home.png) no-repeat center;
+    background-size: cover;
+}
+body.hide{
+    background: url(./images/mountains-universe02.png) no-repeat center;
+    background-size: cover;
+}
+body.hide2{
+    
+    background: url(./images/explorer.png) no-repeat center;
+    background-size: cover;
+}
+nav, main, h1, p, a{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    gap: 5.0rem;
+
+    padding: 4.0rem 71.9rem 4.0rem 7.2rem;
+
+}
+nav img{
+    width: 4.9rem;
+    height: 4.2rem;
+    margin-top: -.8rem;
+}
+nav a{
+    font-size: 2.1rem;
+    font-weight: 400;
+    align-items: center;
+
+    color: #C4C4CC;
+    text-decoration: none;
+    transition: .2s;
+}
+
+a.hide{
+    transition: 0.2s;
+    color: white;
+    transform: scale(1.1);
+}
+div{
+    transition: .2s;
+}
+nav div:hover{
+    transform: scale(1.2);
+}
+main{
+    height: 50vh;
+}
+
+main .home{
+    padding-top: 15.0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home p{
+    width: 64.8rem;
+    margin-top: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    color: #E1E1E6;
+    text-align: center;
+}
+main h1{
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    transition: 0.3s;
+    
+
+}
+.button.hide{
+    display: none;
+    z-index: -1;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25.0rem;
+    margin-left: 54.0rem;
+    padding: 1.2rem 3.2rem;
+    border-radius: .8rem;
+    border: .2rem solid white;
+
+    background: none;
+    
+    color: #E1E1E6;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: .2s;
+
+    
+}
+button:hover{
+    transform: scale(1.1);  
+    border: .2rem solid black;
+}
+
+
+main .links{
+    margin-top: 6.3rem;
+    margin-left: 10.2rem;
+}
+.links p{
+    width: 64.8rem;
+    margin-top: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    color: #E1E1E6;
+
+}
+
+
