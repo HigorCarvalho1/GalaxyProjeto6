@@ -17,8 +17,10 @@ window.onpopstate = () => router.handle()
 window.route = () => router.route()
 
 variaveis.btn.addEventListener('click', () => {
+    router.btn1()
     router.handle("/univers")
     functions.universo()
+    
 })
 variaveis.home.addEventListener('click', functions.home)
 variaveis.universo.addEventListener('click', functions.universo)

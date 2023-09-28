@@ -20,4 +20,11 @@ export class Router {
         .then(html => document.querySelector('#conteudo').innerHTML = html )// fetch ele busca na pagina aquilo que você deseja , mas ele é uma promise que quer dizer que o J.S vai deixar ele de fora executar as proximas linhas e quando ele estiver pronto vai aparecer
     
     }
+
+    btn1(event){
+        event = event || window.event
+        event.preventDefault()
+        
+        window.history.pushState({}, "", "/univers")
+    }
 }
